@@ -1,0 +1,17 @@
+The Shopping Cart lets users add, remove, and check items out.
+They can add an item that was not already added.
+The checkout process returns a receipt that holds the subtotal, tax, and total.
+
+               Test Cases
+----------------------------------------
+- adding an item if not already added
+    - test that item is added to cart
+    - test if car skips duplicated item
+- removing an item
+    - test that item can be removed after being sold
+    - throw exception if cart empty
+- checkout
+    - test for checkout subtotal
+    - test for tax
+    - test for total
+    - test for illegal state exception for trying to check out empty cart
